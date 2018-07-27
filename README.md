@@ -10,10 +10,53 @@ To install these files as a Zip, click on the green "Clone or download" button a
 
 ### Cloning from CLI
 
-To clone this repository and get all the files, run the following command in your CLI
+To clone this repository and obtain all the files for this module, run the following command in your CLI
 
 ```
 git clone git@github.com:codetilldrop/LinkedLists.git
 ```
 
-IMPORTANT NOTE: MORE USAGE DOCUMENTATION COMING SOON
+## Usage
+### Importing Module
+
+To import this module into your projects, simply #include the following at the top of 
+your code
+
+```
+#include "/LinkedList/list.h"
+```
+
+### API
+#### Linked List Type
+#### list newList (void)
+
+Creates a new Linked List type
+
+```
+list myList = newList();
+```
+
+#### append (list, value)
+
+Appends the value passed into the function into the specified list which is also passed into the functions.
+
+```
+list myList = newList();
+append(myList, 42);
+```
+
+#### frontInsert (list, value)
+
+Prepends the value passed into the function into the specified list which is also passed into the functions.
+
+```
+list myList = newList();
+frontInsert(myList, 42);
+```
+
+#### int numItems (list l)
+
+Shows the number of items which are in a list
+
+```
+list myList
