@@ -54,9 +54,31 @@ list myList = newList();
 frontInsert(myList, 42);
 ```
 
+#### showList (list)
+
+Prints out the specified Linked List passed into the function
+
+```
+list myList = newList();
+append(myList, 1);
+append(myList, 2);
+showList(myList);
+// Expected output of above statement: 
+// 1
+// 2
+```
+
 #### int numItems (list l)
 
 Shows the number of items which are in a list
 
 ```
-list myList
+list myList = newList();
+append(myList, 10);
+append(myList, 1);
+append(myList, 11);
+int numOfItems = numItems(myList);
+printf("numOfItems is equivalent to %d\n", numOfItems);
+```
+
+#### NOTE: MORE DOCS COMING SOON 
