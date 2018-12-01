@@ -93,4 +93,26 @@ append(myList, 11);
 int secondElementVal = lookup(myList, 2)
 printf("The 2nd element in the linked list is equivalent to %d\n",secondElementVal)
 ```
+
+#### int deleteHead ()
+
+Deletes the first node in a linked list
+
+```
+list myList = newList();
+append(myList, 10);
+append(myList, 1);
+append(myList, 11);
+showList(myList);
+// Expected output of above statement:
+// 10
+// 1
+// 11
+
+deleteHead(myList);
+showList(myList);
+// Expected output of above statement:
+// 1
+// 11
+```
 #### NOTE: MORE DOCS COMING SOON 
