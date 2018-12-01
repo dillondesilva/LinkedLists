@@ -138,4 +138,28 @@ showList(myList);
 // 1
 ```
 
-#### NOTE: MORE DOCS COMING SOON 
+#### int concatenate (list to, list from);
+
+Joins two linked lists together to form a new one
+
+```
+list firstList = newList();
+append(firstList, 10);
+append(firstList, 1);
+append(firstList, 11);
+
+list secondList = newList();
+append(secondList, 100)
+append(secondList, 101)
+append(secondList, 110)
+
+list finalList = concatenate(firstList, secondList);
+showList(finalList);
+// Expected output of above statement:
+// 10
+// 1
+// 11
+// 100
+// 101
+// 110
+```
