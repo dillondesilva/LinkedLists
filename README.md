@@ -115,4 +115,27 @@ showList(myList);
 // 1
 // 11
 ```
+
+#### int deleteLast (list l)
+
+Deletes the last node in a linked list
+
+```
+list myList = newList();
+append(myList, 10);
+append(myList, 1);
+append(myList, 11);
+showList(myList);
+// Expected output of above statement:
+// 10
+// 1
+// 11
+
+deleteLast(myList);
+showList(myList);
+// Expected output of above statement:
+// 10
+// 1
+```
+
 #### NOTE: MORE DOCS COMING SOON 
