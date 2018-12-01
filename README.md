@@ -81,4 +81,16 @@ int numOfItems = numItems(myList);
 printf("numOfItems is equivalent to %d\n", numOfItems);
 ```
 
+#### int lookup (list l, int position)
+
+Shows the value of a node at a given index of a linked list
+
+```
+list myList = newList();
+append(myList, 10);
+append(myList, 1);
+append(myList, 11);
+int secondElementVal = lookup(myList, 2)
+printf("The 2nd element in the linked list is equivalent to %d\n",secondElementVal)
+```
 #### NOTE: MORE DOCS COMING SOON 
