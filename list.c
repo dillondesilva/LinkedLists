@@ -16,7 +16,7 @@ void showList (list listToPrint) {
   } 
 }
  
-// inset item at the front of the list
+// insert item at the front of the list
 void frontInsert (list l, int item) {
   link ptrNodeToInsert = malloc(sizeof (node));
   ptrNodeToInsert->value = item;
